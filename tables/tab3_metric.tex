@@ -1,0 +1,16 @@
+\begin{table}[!htbp]
+\centering
+\caption{The same July matchups scored two ways. $X$ divides by the profiles the mask calls clear; $1-\text{recall}$ divides by the profiles the lidar calls cloudy. The two scores therefore answer different questions and have different denominators, which is the point of the table. Intervals are 95\,\% percentile from the same granule-block bootstrap over the 31 July granules (2{,}000 replicates, seed 20261110); each interval is computed on its own ratio, not from two marginal intervals.}
+\label{tab:metric}
+\small
+\begin{tabular}{@{}llrrrr@{}}
+\toprule
+Truth & Score & Ice & Water & Ice/water & 95\,\% interval \\
+\midrule
+Thick cloud & $X$ (share of clear calls that are wrong) & 0.372 & 0.084 & 4.46 & [2.24, 8.26] \\
+Thick cloud & $1-\text{recall}$ (share of cloudy profiles cleared) & 0.171 & 0.065 & 2.62 & [1.45, 4.04] \\
+Any cloud & $X$ (share of clear calls that are wrong) & 0.429 & 0.252 & 1.70 & [1.00, 2.34] \\
+Any cloud & $1-\text{recall}$ (share of cloudy profiles cleared) & 0.187 & 0.161 & 1.16 & [0.57, 2.25] \\
+\bottomrule
+\end{tabular}
+\end{table}

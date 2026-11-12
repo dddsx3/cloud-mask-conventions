@@ -1,0 +1,28 @@
+\begin{table*}[!htbp]
+\centering
+\caption{The twelve conventions applied to one July matchup set. $X$ is the fraction of the profiles called clear (confidently or probably) that CALIPSO reports as cloudy (thick or any). Ratios are ice $X$ divided by water $X$; brackets are 95\,\% percentile intervals from one granule-block bootstrap over the 31 July CALIPSO granules (2{,}000 replicates, seed 20261110), in which every convention, every pooling and both scores are recomputed on the same resample. Rows are grouped by truth definition and then by clear-sky reduction; pooling is the innermost axis. The ratio spans 1.70 to 6.43, and the 5 intervals that include unity are all in the any-cloud group with area pooling, cell pooling, prof pooling.}
+\label{tab:conventions}
+\small
+\begin{tabular}{@{}lllrrrr@{}}
+\toprule
+Truth & Clear-sky reduction & Pooling & Ice $X$ & Water $X$ & Ice/water & 95\,\% interval \\
+\midrule
+thick truth & clear incl & Profile & 0.372 & 0.084 & \textbf{4.46} & [2.24, 8.26] \\
+ & clear incl & Cell & 0.435 & 0.080 & \textbf{5.44} & [2.37, 10.15] \\
+ & clear incl & Area & 0.428 & 0.083 & \textbf{5.15} & [2.50, 9.60] \\
+\addlinespace
+ & clear conf & Profile & 0.373 & 0.085 & \textbf{4.39} & [2.17, 9.18] \\
+ & clear conf & Cell & 0.438 & 0.068 & \textbf{6.43} & [2.46, 12.81] \\
+ & clear conf & Area & 0.430 & 0.071 & \textbf{6.09} & [2.60, 12.10] \\
+\addlinespace
+any truth & clear incl & Profile & 0.429 & 0.252 & \textbf{1.70} & [1.00, 2.34] \\
+ & clear incl & Cell & 0.480 & 0.234 & \textbf{2.05} & [0.95, 2.54] \\
+ & clear incl & Area & 0.469 & 0.245 & \textbf{1.91} & [0.98, 2.47] \\
+\addlinespace
+ & clear conf & Profile & 0.428 & 0.243 & \textbf{1.76} & [0.91, 2.72] \\
+ & clear conf & Cell & 0.483 & 0.230 & \textbf{2.10} & [0.86, 2.77] \\
+ & clear conf & Area & 0.472 & 0.240 & \textbf{1.97} & [0.89, 2.70] \\
+\addlinespace
+\bottomrule
+\end{tabular}
+\end{table*}

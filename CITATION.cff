@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this artefact, please cite the accompanying article and this repository."
+title: "Twelve conventions for scoring a clear-sky validation, from one matchup set"
+abstract: >-
+  One MODIS-CALIPSO matchup set scored twelve ways: two truth definitions, two confidence reductions, three poolings, plus the metric axis, the matching-window axis and the branch flag.
+type: software
+license: MIT
+repository-code: "https://github.com/dddsx3/cloud-mask-conventions"
+authors:
+  - name: "The authors of the accompanying manuscript"
+keywords:
+  - "cloud mask"
+  - "validation"
+  - "MODIS"
+  - "CALIPSO"
+  - "bootstrap"
+version: "1.0.0"
+date-released: "2026-11-12"
